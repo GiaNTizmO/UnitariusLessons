@@ -104,11 +104,19 @@ export function Task6(){
 * Function that return object properties information
 * @param    {object} obj            Object to grab info
 */
-export function ObjectInspector(obj){
+export function ObjectInspector(obj, name = null){
+    if (name != null){
+        tinyLogger(`object property name: [${name}] type: [${typeof(obj)}] value: [${obj}]`, "objectInspector")
+    }
+    else{
+        tinyLogger(`object type: [${typeof(obj)}] value: [${obj}]`, "objectInspector")
+    }
     if (obj != null){
-        var objectProperties = Object.getOwnPropertyNames(obj); //got from: https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_Objects
-        for (let el of objectProperties){
-            tinyLogger(`object property name: [${el}] type: [${typeof(obj[el])}] value: [${obj[el]}]`, "objectInspector")
+            var objectProperties = Object.getOwnPropertyNames(obj); //got from: https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_Objects
+            if (name == null){
+            for (let el of objectProperties){
+                ObjectInspector(obj[el], el);
+            }
         }
     }
 }
