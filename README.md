@@ -1,5 +1,5 @@
 # UnitariusLessons
-Just a temporaily repository for Unitarius     ̷h̷e̷a̷d̷h̷u̷n̷t̷e̷r̷s   teachers
+Just a temporaily repository for Unitarius
  
   
    
