@@ -1,0 +1,25 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "just a task, you dont need description bruh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiaNTizmO/Unitarius.git"
+  },
+  "keywords": [
+    "unitarius",
+    "nodejs",
+    "javascript"
+  ],
+  "type": "module",
+  "author": "GiaNTizmO",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/GiaNTizmO/Unitarius/issues"
+  },
+  "homepage": "https://github.com/GiaNTizmO/Unitarius#readme"
+}
