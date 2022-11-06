@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/GiaNTizmO/Unitarius/issues"
   },
-  "homepage": "https://github.com/GiaNTizmO/Unitarius#readme"
+  "homepage": "https://github.com/GiaNTizmO/Unitarius#readme",
+  "dependencies": {
+    "immutable": "^4.1.0"
+  }
 }
